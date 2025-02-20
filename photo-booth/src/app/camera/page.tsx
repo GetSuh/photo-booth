@@ -2,6 +2,7 @@
 'use client'; // Mark this as a Client Component
 
 import { useEffect, useRef, useState } from 'react';
+import Photocard from '../components/Photocard';
 
 export default function CameraPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
